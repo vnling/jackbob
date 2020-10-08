@@ -6,6 +6,27 @@ body {
     background-image: linear-gradient(180deg, rgba(254,212,59,1) 0%, rgba(255,251,198,1) 59%, rgba(250,219,132,1) 67%, rgba(255,186,136,1) 71%, rgba(255,142,178,1) 75%, rgba(177,121,177,1) 82%, rgba(139,112,154,1) 84%, rgba(14,69,87,1) 92%, rgba(2,0,36,1) 100%);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(254,212,59,1) 0%, rgba(255,251,198,1) 59%, rgba(250,219,132,1) 67%, rgba(255,186,136,1) 71%, rgba(255,142,178,1) 75%, rgba(177,121,177,1) 82%, rgba(139,112,154,1) 84%, rgba(14,69,87,1) 92%, rgba(2,0,36,1) 100%);
+}
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 #header h1{
     /* setting font properties */
     font-family: 'Courier New', Courier, monospace; 
