@@ -35,6 +35,7 @@ body {
     /* moves title downwards */
     transform: translate(0, 40vh); /*bit hacky, figure this out later*/
     /*centers title */
+    width: -moz-fit-content;
     width: fit-content; 
     margin: auto;
 }
