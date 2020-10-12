@@ -1,7 +1,7 @@
 /* background created with this tool: https://cssgradient.io/ */
 
 body {
-    height: 10000px; /*hard coded for now so gradient effect appears*/
+    height: 7800px; /*hard coded for now so gradient effect appears*/
     /* this super long line is just parameters for drawing the background gradient */
     background-image: linear-gradient(180deg, rgba(254,212,59,1) 0%, rgba(255,251,198,1) 59%, rgba(250,219,132,1) 67%, rgba(255,186,136,1) 71%, rgba(255,142,178,1) 75%, rgba(177,121,177,1) 82%, rgba(139,112,154,1) 84%, rgba(14,69,87,1) 92%, rgba(2,0,36,1) 100%);
 }
@@ -29,13 +29,34 @@ body {
 
 #header h1{
     /* setting font properties */
+
     font-family: 'Courier New', Courier, monospace; 
     font-size: 5em;
     font-weight: 600;
     /* moves title downwards */
-    transform: translate(0, 40vh); /*bit hacky, figure this out later*/
+    transform: translate(0, 70vh); /*bit hacky, figure this out later*/
     /*centers title */
     width: -moz-fit-content;
     width: fit-content; 
     margin: auto;
+    /*used float right earlier so gotta clear right*/
+    clear:right;
+}
+.panel img{
+  height: 80vh;
+}
+#panel1{
+  transform:translate(10vw,8vh);
+}
+#panel2{
+  float:right;
+  transform:translate(-10vw,20vh);
+}
+.panelCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 23vh;
+  transform:translate(0,107vh)
+
 }
