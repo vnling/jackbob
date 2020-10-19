@@ -46,6 +46,7 @@ body {
   height: 80vh;
 }
 #panel1{
+  height:50vh;
   transform:translate(10vw,8vh);
 }
 #panel2{
