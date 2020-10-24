@@ -107,6 +107,49 @@ body {
   font-size: 36px;
 }
 
+#walking1 {
+  position: relative;
+  left: 6vw;
+  top: 42vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 46px;
+}
+#walking2{
+  position: relative;
+  left: 55vw;
+  top: 60vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+#walking3{
+  position: relative;
+  left: 2vw;
+  top: 65vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+#walking4{
+  position: relative;
+  left: 72vw;
+  top: 113vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 30px;
+}
+#meeting{
+  position: relative;
+  left:73vw;
+  top:118vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 36px;
+}
+
 .panelCenter {
   display: block;
   margin-left: auto;
