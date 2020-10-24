@@ -1,6 +1,7 @@
 /* background created with this tool: https://cssgradient.io/ */
 
 body {
+  font-family: 'Courier New', Courier, monospace;
   height: 7800px;
   /*hard coded for now so gradient effect appears*/
   /* this super long line is just parameters for drawing the background gradient */
@@ -34,7 +35,6 @@ body {
 
 #header h1 {
   /* setting font properties */
-  font-family: 'Courier New', Courier, monospace;
   font-size: 5em;
   font-weight: 600;
   /* moves title downwards */
@@ -62,10 +62,49 @@ body {
   transform: translate(-10vw, 20vh);
 }
 
-#wakingUp {
-  transform: translate(500px, 500px);
-  font-weight: normal;
-  font-size: 36px
+#wakingUp1 {
+  position: relative;
+  left: 15vw;
+  top: 42vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#wakingUp2 {
+  position: relative;
+  left: 25vw;
+  top: 60vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+#wakingUp3 {
+  position: relative;
+  left: 5vw;
+  top: 65vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+#wakingUp4 {
+  position: relative;
+  left: 40vw;
+  top: 68vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+#wakingUp5 {
+  position: relative;
+  left: 82vw;
+  top: 30vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .panelCenter {
@@ -74,4 +113,9 @@ body {
   margin-right: auto;
   padding-top: 23vh;
   transform: translate(0, 107vh)
+}
+
+/*parllax scrolling*/
+.rellax{
+  color:#424241;
 }
