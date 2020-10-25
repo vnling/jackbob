@@ -66,6 +66,7 @@ body {
   position: relative;
   left: 15vw;
   top: 42vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 48px;
@@ -75,6 +76,7 @@ body {
   position: relative;
   left: 25vw;
   top: 60vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 64px;
@@ -84,6 +86,7 @@ body {
   position: relative;
   left: 5vw;
   top: 65vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 24px;
@@ -93,6 +96,7 @@ body {
   position: relative;
   left: 40vw;
   top: 68vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 36px;
@@ -102,6 +106,7 @@ body {
   position: relative;
   left: 82vw;
   top: 30vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 36px;
@@ -111,74 +116,85 @@ body {
   position: relative;
   left: 6vw;
   top: 42vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 46px;
 }
-#walking2{
+
+#walking2 {
   position: relative;
   left: 55vw;
   top: 60vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 64px;
 }
 
-#walking3{
+#walking3 {
   position: relative;
   left: 2vw;
   top: 65vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 24px;
 }
 
-#walking4{
+#walking4 {
   position: relative;
   left: 72vw;
   top: 113vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 30px;
 }
-#meeting{
+
+#meeting {
   position: relative;
-  left:73vw;
-  top:118vh;
+  left: 73vw;
+  top: 118vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 36px;
 }
-#bye1{
-  color:white;
+
+#bye1 {
+  color: white;
   position: relative;
-  left:4vw;
-  top:0vh;
+  left: 4vw;
+  top: 0vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 30px;
-
 }
-#bye2{
-  color:white;
+
+#bye2 {
+  color: white;
   position: relative;
-  left:75vw;
-  top:10vh;
+  left: 75vw;
+  top: 10vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 48px;
-
 }
-#turnoff{
-  color:white;
+
+#turnoff {
+  color: white;
   position: relative;
-  left:3vw;
-  top:-30vh;
+  left: 3vw;
+  top: -30vh;
+  width: -moz-fit-content;
   width: fit-content;
   font-weight: 900;
   font-size: 30px;
-
 }
+
 .panelCenter {
   display: block;
   margin-left: auto;
@@ -186,10 +202,13 @@ body {
   padding-top: 23vh;
   transform: translate(0, 107vh)
 }
-.hidden{
-  display : none;
+
+.hidden {
+  display: none;
 }
+
 /*parllax scrolling*/
-.rellax{
-  color:#424241;
+
+.rellax {
+  color: #424241;
 }
