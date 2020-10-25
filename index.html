@@ -2,6 +2,8 @@
 
 <head>
 	<meta charset="utf-8" />
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="script.js"></script>
 	<!---important here i think if we want the emoji title-->
 	<title>📺🧍‍♂️❤️</title>
 	<link rel="stylesheet" href="style.css">
@@ -41,12 +43,14 @@
 		<img src="./Images/panel6.png" class="panelCenter">
 	</div>
 	<div class="panel">
+		<p class="rellax" id ="bye1" data-rellax-speed="-2">[*´∇｀*] yumyum candy</p>
+		<p class="rellax" id ="bye2" data-rellax-speed="-2">bye bye!!</p>
 		<img src="./Images/panel7.png" class="panelCenter">
 	</div>
-<!-- 	<div class="panel">
-		last image not yet uploaded, change path later
-		<img src="./Images/panel8.png" class="panelCenter">
-	</div> -->
+	<div class="panel">
+		<p class="rellax" id ="turnoff" data-rellax-speed="-2">Click me to switch me off!</p>
+		<img id ="offPanel" src="./Images/panel8static.png" class="panelCenter" onclick="switchGif();">
+	</div>
 
 	<script src="rellax.min.js"></script>
 	<script>

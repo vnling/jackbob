@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Courier New', Courier, monospace;
-  height: 7800px;
+  height: 8800px;
   /*hard coded for now so gradient effect appears*/
   /* this super long line is just parameters for drawing the background gradient */
   background-image: linear-gradient(180deg, rgba(254, 212, 59, 1) 0%, rgba(255, 251, 198, 1) 59%, rgba(250, 219, 132, 1) 67%, rgba(255, 186, 136, 1) 71%, rgba(255, 142, 178, 1) 75%, rgba(177, 121, 177, 1) 82%, rgba(139, 112, 154, 1) 84%, rgba(14, 69, 87, 1) 92%, rgba(2, 0, 36, 1) 100%);
@@ -149,7 +149,36 @@ body {
   font-weight: 900;
   font-size: 36px;
 }
+#bye1{
+  color:white;
+  position: relative;
+  left:4vw;
+  top:0vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 30px;
 
+}
+#bye2{
+  color:white;
+  position: relative;
+  left:75vw;
+  top:10vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 48px;
+
+}
+#turnoff{
+  color:white;
+  position: relative;
+  left:3vw;
+  top:-30vh;
+  width: fit-content;
+  font-weight: 900;
+  font-size: 30px;
+
+}
 .panelCenter {
   display: block;
   margin-left: auto;
