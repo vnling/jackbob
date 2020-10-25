@@ -186,7 +186,9 @@ body {
   padding-top: 23vh;
   transform: translate(0, 107vh)
 }
-
+.hidden{
+  display : none;
+}
 /*parllax scrolling*/
 .rellax{
   color:#424241;
