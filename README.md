@@ -3,6 +3,7 @@
 A comic by Chris, Quim, and Vee
 
 This is what the comic looks like:
+
 ![Demo](./Documentation/demo.gif)
 
 ### Project Description
@@ -19,7 +20,7 @@ Our team chose to use the background of our comic to creating a sense of time pa
 We chose to implement two main interactive features in this comic: a parallax scrolling effect, and an animation triggered by a click. The parallax scrolling effect was implemented on JackBob and the passersby's monologue, so lines would scroll at different speeds relative to each other and the panels. The animation, implemented on the very last panel, allows readers to "switch Jackbob off". 
 
 This is the first parallax scrolling effect when Jackbob is waking up:
-![Waking Up](./Documentation/zzz.gif)
+![Waking Up](./Documentation/sleep.gif)
 
 This is the second parallax scrolling effect when Jackbob is waiting for the pedestrian crossing:
 ![Waiting](./Documentation/morning.gif)
@@ -31,7 +32,7 @@ This is the fourth parallax scrolling effect when Jackbob receives the candy and
 ![Goodbye](./Documentation/bye.gif)
 
 This is the last parllax scrolling effect at the end and the on click interaction to turn Jackbob off:
-![SwitchOff](./Documentation/end.gif)
+![SwitchOff](./Documentation/off.gif)
 
 * Bonus: Symbolism!
 JackBob may seem like an odd name, but of course, it is really just two very common names spliced together. The name JackBob is a symbol of JackBob himself: the unusual combination of two common things (a television and a human)!
