@@ -20,7 +20,7 @@ Our team chose to use the background of our comic to creating a sense of time pa
 We chose to implement two main interactive features in this comic: a parallax scrolling effect, and an animation triggered by a click. The parallax scrolling effect was implemented on JackBob and the passersby's monologue, so lines would scroll at different speeds relative to each other and the panels. The animation, implemented on the very last panel, allows readers to "switch Jackbob off". 
 
 Several examples of the parallax scrolling effect:
-<img src = "./Documentation/sleep.gif" width = 600>) <img src = "./Documentation/morning.gif" width = 600>)
+<img src = "./Documentation/sleep.gif" width = 500> <img src = "./Documentation/morning.gif" width = 500>
 
 This is the on click interaction to turn Jackbob off and another example of the parallax scrolling effect:
 ![SwitchOff](./Documentation/off.gif)
